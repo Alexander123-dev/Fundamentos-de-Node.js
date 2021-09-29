@@ -4,9 +4,8 @@ console.log('Hola mundo');
 //A tener  en cuenta esta función no se detiene y continúa su ejecución ad infinitum.
 // Detener ejecución con ctrl+ alt + m en Run Code, o con Ctrl +c en la terminal.
 setInterval(function(){
-    console.log('Voy a contar hasta infinito, detén mi ejecución o consumo tu memoria')
+    console.log('Detén mi ejecución o consumo tu memoria')
 }, 1000); // Esta instrucción es asíncrona, por lo que se ejecuta en n momento.
-
 
     let i = 0;
     setInterval(function() {
